@@ -4,6 +4,8 @@ import rainJacket from './assets/rain-jacket.jpg';
 import merlotSuit from './assets/merlot-suit.jpg';
 import moonlightDress from './assets/moonlight-dress.jpg';
 import denimPioneer from './assets/denim-pioneer.jpg';
+import sheathDress from './assets/sheath-dress.jpg';
+import tailoredBlazer from './assets/tailored-blazer.jpg';
 
 export const DUMMY_PRODUCTS = [
   {
@@ -16,13 +18,12 @@ export const DUMMY_PRODUCTS = [
   },
   {
     id: 'p2',
-    image: dreamGown,
-    title: 'Enchanting Blush Dream Gown',
-    price: 189.99,
+    image: tailoredBlazer,
+    title: 'Sophisticated Tailored Blazer',
+    price: 129.99,
     description:
-      'Bask in the glow of elegance with our Enchanting Blush Dream Gown. Embody the regality of a queen with a sweet touch of pink that whispers enchantment. This is the perfect piece for those seeking to create unforgettable moments.',
+      'Elevate your professional wardrobe with our Sophisticated Tailored Blazer. Crafted from high-quality fabric, this blazer features a sleek silhouette and structured shoulders, providing a polished look for any business setting. Pair it with tailored trousers or a pencil skirt for a chic ensemble that exudes confidence and authority.'
   },
-
   {
     id: 'p3',
     image: rainJacket,
@@ -41,11 +42,11 @@ export const DUMMY_PRODUCTS = [
   },
   {
     id: 'p5',
-    image: moonlightDress,
-    title: 'Ethereal Moonlight Evening Dress',
-    price: 159.99,
+    image: sheathDress,
+    title: 'Classic Sheath Dress',
+    price: 149.9,
     description:
-      'Sweep the room off its feet in our Ethereal Moonlight Evening Dress. Crafted to mimic the allure of the moonlight, this dress is a nod to those who appreciate subtle glamour and a standout silhouette.',
+      'Make a statement in our Classic Sheath Dress, designed for the modern businesswoman. This dress hugs your curves in all the right places, offering a flattering fit that transitions seamlessly from the office to after-hours events. With its timeless design and versatile color options, it’s the perfect foundation for a sophisticated work wardrobe.'
   },
   {
     id: 'p6',
@@ -54,5 +55,21 @@ export const DUMMY_PRODUCTS = [
     price: 79.99,
     description:
       'Our Pioneer Rugged Denim Jacket is a tribute to those who embody the spirit of adventure. Designed with durability and comfort in mind, this jacket is a wardrobe essential for the urban explorer.'
-  }
+  },
+  {
+    id: 'p7',
+    image: moonlightDress,
+    title: 'Ethereal Moonlight Evening Dress',
+    price: 159.99,
+    description:
+      'Sweep the room off its feet in our Ethereal Moonlight Evening Dress. Crafted to mimic the allure of the moonlight, this dress is a nod to those who appreciate subtle glamour and a standout silhouette.',
+  },
+  {
+    id: 'p8',
+    image: dreamGown,
+    title: 'Enchanting Blush Dream Gown',
+    price: 189.99,
+    description:
+      'Bask in the glow of elegance with our Enchanting Blush Dream Gown. Embody the regality of a queen with a sweet touch of pink that whispers enchantment. This is the perfect piece for those seeking to create unforgettable moments.',
+  },
 ];
